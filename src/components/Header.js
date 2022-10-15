@@ -1,5 +1,16 @@
 import React from "react";
-import { FaGlobe } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaFacebook,
+  FaGlobe,
+  FaInstagram,
+  FaLinkedin,
+  FaReddit,
+  FaTelegram,
+  FaTiktok,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import { FiShare2 } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
@@ -26,7 +37,7 @@ function Header() {
           className="hidden md:flex items-center gap-5 goshareg uppercase"
           style={{ alignItems: "end" }}
         >
-          <nav className="text-white flex  gap-5">
+          <nav className="text-white flex  gap-5 items-end">
             <li className="dropdown inline px-4 text-white-500 text-left  cursor-pointer font-bold text-base uppercase tracking-wide">
               <a>How to buy</a>
               <div className="dropdown-menu absolute hidden h-auto flex ">
@@ -70,7 +81,7 @@ function Header() {
                   </i>
                   <div className="hidden absolute peer-hover:flex hover:flex flex-col bg-yellow-600 drop-shadow-lg">
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="w-[300px] px-2 py-2 text-black hover:bg-yellow-600 bg-[#ff6837] text-left"
                       href="#"
                     >
                       English
@@ -87,63 +98,69 @@ function Header() {
                     alt=""
                     width="50"
                   />
-                  <i className="absolute flex top-[0] text-black  text-2xl h-full w-full justify-center items-center z-[100] peer px-2 py-2  text-white hover:text-blue-600"></i>
-                  <div className="hidden absolute peer-hover:flex hover:flex flex-col bg-yellow-600 drop-shadow-lg">
+                  <i className="absolute flex top-[0] text-black  text-2xl h-full w-full justify-center items-center z-[100] peer  py-2  text-white hover:text-blue-600"></i>
+                  <div className="hidden absolute peer-hover:flex hover:flex flex-col bg-[#ff6837] text-left drop-shadow-lg">
+                    <div>
+                      <a
+                        className="px-2 py-2 flex items-center text-white hover:bg-yellow-600 "
+                        href="https://twitter.com/Metacade_Crypto"
+                        // eslint-disable-next-line react/jsx-no-duplicate-props
+                      >
+                        <FaTwitter color={"#fff"} className="mx-2" /> Twitter
+                      </a>
+                    </div>
+
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
-                      href="https://twitter.com/Metacade_Crypto"
-                    >
-                      Twitter
-                    </a>
-                    <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="https://www.facebook.com/metacade"
                     >
+                      <FaInstagram color={"#fff"} className="mx-2" />
                       Instagram
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="https://t.me/+rfvHWK2AfNMzMjQ0"
                     >
-                      Telegram
+                      <FaTelegram color={"#fff"} className="mx-2" /> Telegram
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="https://www.youtube.com/channel/UCVA_TZHxuqziubGe1ExEUQg"
                     >
+                      <FaReddit color={"#fff"} className="mx-2" />
                       Reddit
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="https://discord.com/channels/@metacade"
                     >
-                      Discord
+                      <FaDiscord color={"#fff"} className="mx-2" /> Discord
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="https://www.instagram.com/metacade_/"
                     >
-                      Tiktok
+                      <FaTiktok color={"#fff"} className="mx-2" /> Tiktok
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2  flex items-center text-white hover:bg-yellow-600"
                       href="https://www.tiktok.com/@metacade_official"
                     >
-                      Facebook
+                      <FaFacebook color={"#fff"} className="mx-2" /> Facebook
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="
                 https://www.linkedin.com/company/metacade/"
                     >
-                      Linkedin
+                      <FaLinkedin color={"#fff"} className="mx-2" /> Linkedin
                     </a>
                     <a
-                      className="px-2 py-2 text-black hover:bg-gray-200"
+                      className="px-2 py-2 flex items-center text-white hover:bg-yellow-600"
                       href="
                 https://www.linkedin.com/company/metacade/"
                     >
-                      Youtube
+                      <FaYoutube color={"#fff"} className="mx-2" /> Youtube
                     </a>
                   </div>
                 </a>
