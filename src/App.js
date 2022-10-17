@@ -84,7 +84,7 @@ const HeroSection = () => {
   );
 };
 const Section2 = () => {
-  const { login } = useAuth();
+  const { login, mobileLogin } = useAuth();
   return (
     <>
       <div
@@ -120,7 +120,7 @@ const Section2 = () => {
                   src="assets/images/new/connect-wallet-active.png"
                   className=""
                   alt="btn-connect"
-                  onClick={login}
+                  onClick={mobileLogin}
                 />
                 {/* </a> */}
               </div>

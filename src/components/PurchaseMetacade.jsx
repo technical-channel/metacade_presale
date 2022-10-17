@@ -371,13 +371,13 @@ const BuyETH = ({ TokenSaleByETH, handleInputEth }) => {
 const BuyUSDT = ({ TokenSaleByUSDT, handleInputUSDT }) => {
   return (
     <>
-      <div className="md:max-w-[500px] w-full px-[10px]  mx-auto">
+      <div className="md:max-w-[500px] w-full borderimg2 mx-auto w-full">
         {" "}
-        <h2 className="mb-0 uppercase text-white text-3xl bg-[#ff6837] rounded-t-lg py-3 ">
+        <h2 className="mb-0 uppercase text-white text-3xl py-3 bg-[#f66329]">
           {" "}
           Buy with USDT
         </h2>
-        <div className="border-2 m-0 border-[#ff6837]"></div>
+        <div id="#borderimg2" className="border-2 m-0 border-[#ff6837]"></div>
         <div
           className={`py-[20px] md:px-[100px] rounded-b-md border-2 border-white border-t-0    bg-[url(${
             process.env.PUBLIC_URL + "assets/images/new/dot-back.png"

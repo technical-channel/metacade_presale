@@ -5,41 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background:#262425 ;
+  background: #262425;
 }
 
 html {
   scroll-behavior: smooth;
 }
 /* Trade Gothic */
-input{
+input {
   text-align: right;
 }
 @font-face {
-  font-family: '8bitfont';
-  src: url('./fonts/8-bit-fortress.woff') format('woff')
+  font-family: "8bitfont";
+  src: url("./fonts/8-bit-fortress.woff") format("woff");
 }
 @font-face {
-  font-family: 'goshabold';
-  src: url('./fonts/GoshaSansBold.otf') 
+  font-family: "goshabold";
+  src: url("./fonts/GoshaSansBold.otf");
 }
 @font-face {
-  font-family: 'goshareg';
-  src: url('./fonts/GoshaSansRegular.otf')
+  font-family: "goshareg";
+  src: url("./fonts/GoshaSansRegular.otf");
 }
-
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-
-p{
+p {
   color: #fff;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
   font-family: "8bitfont";
   margin-bottom: 0.5rem;
@@ -47,24 +49,28 @@ h1,h2,h3,h4,h5,h6{
   line-height: 1.2;
 }
 
-h2{
+h2 {
   /* padding-bottom: 40px;
   padding-top: 60px; */
 }
 
-p{
+p {
   font-size: small;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.borderimg2 {
+  border: 20px solid transparent;
 
-.fa-brands{
+  border-image: url(../public/assets/images/borderimages/orange-border.png) 60
+    stretch;
+}
+.fa-brands {
   background-color: #fff;
   padding: 8px;
-border-radius: 999px;
+  border-radius: 999px;
 }
-
 
 #top-btn {
   display: none;
