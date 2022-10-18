@@ -63,8 +63,8 @@ p {
 .borderimg2 {
   border: 20px solid transparent;
 
-  border-image: url(../public/assets/images/borderimages/orange-border.png) 60
-    stretch;
+  /* border-image: url(../public/assets/images/borderimages/orange-border.png) 60
+    stretch; */
 }
 .fa-brands {
   background-color: #fff;

@@ -6,7 +6,14 @@ export const injected = new InjectedConnector({
   supportedChainIds: [1, 3, 4, 5, 42, 97],
 });
 export const walletconnect = new WalletConnectConnector({
-  url: `https://mainnet.infura.io/v3/8ef7ffaaf1b348249b09e4dea208dd08`,
+  infuraId: "9c48d1f781404552b1a017d597f6bee1",
   bridge: "https://bridge.walletconnect.org",
+  rpc: {
+    97: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+  },
   qrcode: true,
+  qrcodeModalOptions: {
+    mobileLinks: ["metamask", "trust"],
+  },
+  desktopLinks: ["encrypted ink"],
 });

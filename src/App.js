@@ -121,6 +121,7 @@ const Section2 = () => {
                   className=""
                   alt="btn-connect"
                   onClick={mobileLogin}
+                  style={{cursor: "pointer"}}
                 />
                 {/* </a> */}
               </div>
